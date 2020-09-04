@@ -70,16 +70,12 @@ class MainActivity : AppCompatActivity() {
             }
 */
             //return null
-
-
                 Log.d(TAG,"GlobalScope.launch")
             //}
             Toast.makeText(this,"Download error: end", Toast.LENGTH_LONG).show();
         }
-
     }
-
-
+    
     private fun downloadFile(url: String ) {
         var url =  URL(url)
         val urlConnection =  url.openConnection() as HttpURLConnection
