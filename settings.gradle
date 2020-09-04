@@ -1,0 +1,2 @@
+rootProject.name='MoviesFilmAsyncTaskPoster'
+include ':app'
